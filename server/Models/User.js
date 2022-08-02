@@ -11,13 +11,7 @@ const UserSchema = new mongoose.Schema(
             type: String,
             required: true,
             unique: true,
-        },
-        g_user: {
-            type: String,
-        },
-
-        d_user: {
-            type: String,
+      
         },
         password: {
             type: String,
